@@ -1,68 +1,38 @@
+# Spacestock Search Property Client + Google Cloud Functions Firebase Firestore
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+TL;DR:React Hooks are here, and I immediately fell in love with them. To understand why Hooks are great, I think it helps to look at how we’ve been solving a common problem.
 
-In the project directory, you can run:
+## DEMO
+Open [https://spacetock-store.firebaseapp.com](https://spacetock-store.firebaseapp.com) OR [https://spacetock-store.web.app/](https://spacetock-store.web.app) to view demo application.
 
-### `npm start`
+### Getting Started
+First, clone the repo via git:
+```
+$ git clone git@github.com:rickhysis/spacetock-search-property.git
+$ cd spacetock-search-property
+```
+and then you need to run 
+```
+$ npm install 
+OR
+$ yarn 
+``` 
+***change default config in .env file as needed***
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Usage
+Start the app in the dev environment. This starts the renderer process in hot-module-replacement mode and that sends hot updates to the renderer process:
+```
+$ npm run start
+or
+$ yarn start
+```
+Then open http://localhost:${PORT}/ to see your app, if it isn’t automatically opened for you.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Once you’re ready to deploy to production, create a minified bundle with npm run build. Then, you can test your minified bundle by calling npm run serve.
 
-### `npm test`
+For more details on the available commands, see the Scripts guide on the Create React App website.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### API
+You can interact through this Repository [spacetock-google-cloud-functions](https://github.com/rickhysis/spacetock-google-cloud-functions#testing) 
